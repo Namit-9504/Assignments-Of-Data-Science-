@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YouTube Data Scrapper- Namit Chaudhari</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="container">
+		<h1>YouTube Data Scrapper - Namit Chaudhari</h1>
+		<div class="form">	
+		<form action="/YTdata" method="POST">			
+				<input type="text" name="content" id="content" placeholder="Enter YouTube Channel Link...">
+				<input type="submit" value="Search">
+		</form>
+		</div>
+	</div>
+</body>
+</html>
